@@ -9,6 +9,43 @@ body {
   background-color: #ebebeb;
 }
 
+h2{
+  text-align: center;
+}
+
+
+.usuario1{
+  border: #dfd8b2 0px solid;
+  border-radius: 20px ;
+  background-color: #eac926;
+  color:#0044aa;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.contraseña1{
+  border: #dfd8b2 0px solid;
+  border-radius: 20px ;
+  background-color: #eac926;
+  color:#0044aa;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.boton{
+  border: #eac926 0px solid;
+  border-radius: 20px ;
+  background-color: #eac926;
+  font-size: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 10px;
+}
+
 h3 {
   font-size: 24px;
 }
@@ -213,4 +250,51 @@ form {
   article {
     width: 22%;
   }
+}
+.main-footer {
+  background-color: #ffffff;
+  padding: 20px 0;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer-data {
+  text-align: center;
+}
+
+.footer-data i {
+  color: #0044aa;
+  font-size: 3em;
+  padding: 15px;
+}
+
+.footer-data h2 {
+  color: #666;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.footer-data p {
+  color: #666;
+  font-size: 0.75em;
+  font-weight: 300;
+}
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.login{
+  justify-content: space-between;
+  border: 2px solid black ;
+  border: #dfd8b2 0px solid;
+  border-radius: 20px ;
+  color:#0044aa;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
 }
